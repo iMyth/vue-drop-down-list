@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <DropDownList v-model="optionLabel" msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DropDownList from './components/DropDownList.vue'
 
 export default {
   name: 'app',
+  data () {
+    return {
+      optionLabel: 1
+    }
+  },
   components: {
-    HelloWorld
+    DropDownList
   }
 }
 </script>
