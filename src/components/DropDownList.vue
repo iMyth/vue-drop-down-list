@@ -87,10 +87,10 @@ export default {
 	top: 15px;
 	right: 10px;
 	width: 0; 
-  height: 0; 
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #ddd;
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #ddd;
 }
 .options {
 	position: absolute;
